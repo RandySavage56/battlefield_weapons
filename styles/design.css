@@ -1,0 +1,155 @@
+.menu a{
+	padding: 12px 120px 12px 120px;
+	background-color: #998e8b;
+	color: white;
+	border: 5px solid #404040;
+	border-radius: 15px;
+	
+}
+
+.menu
+{
+	align-content: center;
+}
+
+.menu a:hover{
+
+	background-color: #962509;
+}
+
+.footer{
+	background-color: #cc3f10;
+	color: white;
+	text-align: center; 
+	padding: 5px;
+}
+
+.sidebar{
+	background-color: #e5a53d;
+	padding: 5px;
+	border: 5px solid #404040;
+	border-radius: 15px;
+	color: black;
+	margin: 10px 10px 0px -5px;
+}
+
+.sidebar h3{
+	text-align: center;
+}
+
+.header{
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.footer{
+	background-color: #e5a53d;
+	margin-top: 25px;
+	color: black;
+	border: 5px solid #404040;
+	border-radius: 15px;
+	margin-left: 8px;
+}
+
+.title{
+
+	text-align: center;
+	background-image: url("http://media.ldlc.com/bo/images/fiches/carte_graphique/amd_radeon_r7-r9/banner-bf4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	margin-left: -120px;
+	margin-right: -120px;
+	margin-top: -5px;
+}
+
+body{
+
+	background-color: #434e60;
+	font-family: 'Orbitron', sans-serif;
+	transition: transform .4s ease-in-out;
+}
+
+.menu-open{
+	transform: translateX(300px);
+}
+
+.menu{
+
+	margin-top: -15px;
+}
+
+.index, .category, .addtocart a:link, .addtocart a:visited{
+
+	text-decoration: none;
+	color: white;
+}
+
+.addtocart{
+
+	display: inline;
+}
+
+.cart{
+
+	color: white;
+}
+
+.cart_title, .cart_labels{
+
+	color: #e5a53d;
+}
+
+.refresh{
+
+	color: black;
+	display: inline;
+}
+
+.register, .login, .account{
+
+	color: white;
+}
+
+.index{
+
+	text-align: center;
+}
+
+/* MENU HAMBURGER */
+.hamburgerbutton{
+
+	
+	cursor: pointer;
+	background-color: #434e60;
+	color: #e5a53d;
+	border: none;
+	font-size: 40px;
+	padding: 0;
+	vertical-align: top;
+	height: 35px;
+	width: auto;
+	float: left;
+	margin-left: -100px;
+	margin-top: -100px;
+
+}
+
+.hamburgersidebar{
+
+	
+	position: fixed;
+	width: 20%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	
+	transform: translateX(-300px);
+
+}
+
+.footer{
+
+	background-size: cover;
+}
